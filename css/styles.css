@@ -16,7 +16,6 @@ body {
 
 .fixed-nav nav {
     position: fixed;
-    box-shadow: 0 5px rgba(0, 0, 0, 0.1);
 }
 
 header {
@@ -41,6 +40,7 @@ nav {
     position: relative;
     top: 0;
     transition: all 500ms;
+    z-index: 1;
 }
 
 nav ul {
@@ -58,12 +58,16 @@ nav li {
     align-items: center;
 }
 
-.logo {
+li.logo {
     font-size: 30px;
     max-width: 0;
     background: white;
     overflow: hidden;
-    transition: 600ms;
+    transition: 800ms;
+}
+
+.fixed-nav li.logo {
+    max-width: 500px;
 }
 
 .logo a {
@@ -85,6 +89,10 @@ nav a {
     padding: 40px;
     background: white;
     text-align: justify;
-    transform: scale(0.98);
-    transition: transform 500ms;
+    transform: scale(0.95);
+    transition: transform 800ms;
+}
+
+.fixed-nav .site-wrap {
+    transform: scale(1);
 }
