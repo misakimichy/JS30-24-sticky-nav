@@ -1,8 +1,8 @@
 html {
     box-sizing: border-box;
     background: #eeeeee;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 *, *:before, *:after {
@@ -28,4 +28,47 @@ h1 {
     color: white;
     font-size: 6vw;
     text-shadow: 3px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    background: black;
+    position: relative;
+    top: 0;
+    transition: all 500ms;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    max-width: 0;
+    background: white;
+    overflow: hidden;
+    transition: 600ms;
+}
+
+.logo a {
+    color: black;
+}
+
+nav a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    transition: all 200ms;
+    text-transform: uppercase;
+    display: inline-block;
 }
