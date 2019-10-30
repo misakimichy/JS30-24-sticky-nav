@@ -3,7 +3,7 @@
 #### _Sticky Nav by JavaScript30 10/28/19_
 
 ## Description
-This is Sticky Nav, 24rd application out of 30 by 30 day Vanilla JavaScript Coding Challenge by Wes Bos.<br>
+This is Sticky Nav, 24th application out of 30 by 30 day Vanilla JavaScript Coding Challenge by Wes Bos.<br>
 Please check the challenge from [JavaScript30](http://wesbos.com/javascript30/).
 
 ![Screenshot of the app](screenshot/screen-record.gif)
